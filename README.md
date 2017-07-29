@@ -2,7 +2,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-This is a modification to the pd2jira integration.  This has a bit more bi-directional functionality.  It handles the following workflows:
+This is a modification to the pd2jira integration.  This has a bit more bi-directional functionality, however this forked repo removes the functionality that would allow PagerDuty to create JIRA tickets (per a customer request).  It handles the following workflows:
 
 - Create issue in JIRA -> Creates PD incident; Resolve PD incident -> Marks JIRA issue as Done.
 - Create issue in JIRA -> Creates PD incident; Mark JIRA issue as Done -> Resolves PD incident (Default integration)
